@@ -25,7 +25,7 @@ def lambda_handler(event, context):
 
         # Invocamos al modelo Claude 4.5 Haiku
         response = bedrock.invoke_model(
-            modelId='anthropic.claude-4-5-haiku-20250219-v1:0', 
+            modelId='anthropic.claude-haiku-4-5-20251001-v1:0', 
             contentType='application/json',
             accept='application/json',
             body=json.dumps(payload)
