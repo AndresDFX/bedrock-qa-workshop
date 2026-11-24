@@ -89,7 +89,7 @@ terraform version
 ## 0.3 Descargar el código base
 
 ``` bash
-git clone https://github.com/TU_USUARIO/bedrock-qa-workshop.git
+git clone https://github.com/AndresDFX/bedrock-qa-workshop.git
 cd bedrock-qa-workshop
 ```
 
